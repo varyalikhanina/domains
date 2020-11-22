@@ -1,0 +1,22 @@
+@import url("__title/details__title.css");
+@import url("__items/details__items.css");
+@import url("__item-info/details__item-info.css");
+@import url("__item/details__item.css");
+@import url("__item-text/details__item-text.css");
+@import url("__items-wrapper/details__items-wrapper.css");
+
+.details {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 125px;
+  padding-bottom: 170px;
+}
+
+@media screen and (max-width: 425px) {
+  .details {
+    padding: 0;
+    justify-content: center;
+  }
+}

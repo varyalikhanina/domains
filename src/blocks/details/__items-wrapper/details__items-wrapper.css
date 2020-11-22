@@ -1,0 +1,20 @@
+.details__items-wrapper {
+  width: 100%;
+  position: absolute;
+  top: calc(50% - 20px);
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 768px) {
+  .details__items-wrapper {
+    top: calc(50% + 10px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .details__items-wrapper {
+    position: relative;
+    transform: none;
+    top: 0;
+  }
+}

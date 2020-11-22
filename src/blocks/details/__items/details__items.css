@@ -1,0 +1,7 @@
+@import url("_wide/details__items_wide.css");
+
+.details__items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+@import url("_main/__logo-addition_main.css");
+@import url("_details/header__logo-addition_details.css");
+@import url("_about/header__logo-addition_about.css");
+
+.header__logo-addition {
+  margin: 0 0 0 10px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 910px) {
+  .header__logo-addition {
+    font-size: 12px;
+  }
+}

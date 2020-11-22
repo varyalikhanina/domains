@@ -1,0 +1,22 @@
+@import url("__title/about__title.css");
+@import url("__subtitle/about__subtitle.css");
+@import url("__offer/about__offer.css");
+@import url("__offer-text/about__offer-text.css");
+@import url("__offer-image/about__offer-image.css");
+@import url("__offer-description/about__offer-description.css");
+@import url("__offer-link/about__offer-link.css");
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 50px - 115px);
+}
+
+@media screen and (max-width: 425px) {
+  .about {
+    height: max-content;
+  }
+}

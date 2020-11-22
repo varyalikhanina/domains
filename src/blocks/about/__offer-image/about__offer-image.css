@@ -1,0 +1,13 @@
+.about__offer-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+  border-left: 2px solid #e56e7e;
+}
+
+@media screen and (max-width: 768px) {
+  .about__offer-image {
+    display: none;
+  }
+}

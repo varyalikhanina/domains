@@ -1,0 +1,22 @@
+.about__title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 950px) {
+  .about__title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__title {
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: calc((100vw - 320px) / (910 - 320) * (60 - 14) + 14px);
+    line-height: calc((100vw - 320px) / (910 - 320) * (60 - 18) + 18px);
+    text-align: left;
+  }
+}

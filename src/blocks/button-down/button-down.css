@@ -1,0 +1,33 @@
+@import url("./__image/button-down__image.css");
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.button-down {
+  background-color: transparent;
+  border: none;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  outline: none;
+  height: 100px;
+  position: absolute;
+  transition: 0.2s ease-in-out;
+  animation: flicker 2s ease-in-out infinite;
+}
+
+@media screen and (max-width: 768px) {
+  .button-down {
+    display: none;
+  }
+}

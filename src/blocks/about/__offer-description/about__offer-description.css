@@ -1,0 +1,18 @@
+.about__offer-description {
+  color: #fff;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: left;
+  margin: 0 75px 0 0;
+}
+
+.about__offer-description span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 425px) {
+  .about__offer-description {
+    font-size: 14px;
+    margin: auto;
+  }
+}

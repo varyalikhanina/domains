@@ -1,0 +1,15 @@
+.about__offer {
+  width: 100%;
+  background-color: #df4a5e;
+  padding: 20px 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .about__offer {
+    padding: 10px;
+  }
+}

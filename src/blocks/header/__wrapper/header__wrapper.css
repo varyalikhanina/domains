@@ -1,0 +1,9 @@
+.header__wrapper {
+  margin-right: 30%;
+}
+
+@media screen and (max-width: 910px) {
+  .header__wrapper {
+    margin-right: 0;
+  }
+}

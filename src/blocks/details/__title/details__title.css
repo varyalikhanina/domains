@@ -1,0 +1,26 @@
+.details__title {
+  font-size: 35px;
+  color: #333;
+  text-align: center;
+}
+
+@media screen and (max-width: 910px) {
+  .details__title {
+    width: 100%;
+    font-size: calc((100vw - 320px) / (910 - 320) * (60 - 24) + 24px);
+    line-height: calc((100vw - 320px) / (910 - 320) * (60 - 31) + 31px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .details__title {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .details__title {
+    margin: 0 auto 43px;
+    text-align: left;
+  }
+}

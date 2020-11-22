@@ -1,0 +1,9 @@
+.create-link_main {
+  margin: 80px auto 0;
+}
+
+@media screen and (max-width: 425px) {
+  .create-link_main {
+    margin: 80px auto 0;
+  }
+}

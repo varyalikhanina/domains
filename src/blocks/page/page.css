@@ -1,0 +1,21 @@
+@import url("../content/content.css");
+@import url("../first-screen/first-screen.css");
+@import url("../second-screen/second-screen.css");
+@import url("../third-screen/third-screen.css");
+@import url("../header/header.css");
+@import url("../main/main.css");
+@import url("../button-down/button-down.css");
+@import url("../create-link/create-link.css");
+@import url("../details/details.css");
+@import url("../about/about.css");
+@import url("../footer/footer.css");
+@import url("../swiper/swiper.css");
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  font-family: "PT Sans", sans-serif;
+}

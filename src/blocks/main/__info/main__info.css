@@ -1,0 +1,23 @@
+.main__info {
+  background-color: #333;
+  opacity: 0.9;
+  width: 66.3%;
+  margin: -20px auto 0;
+  z-index: -1;
+  display: flex;
+  padding: 35px 0 15px;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  border-radius: 0 0 10px 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .main__info {
+    width: 100%;
+    padding: 0 10px;
+    margin: -10px auto 0;
+    height: 40px;
+    padding: 10px;
+  }
+}

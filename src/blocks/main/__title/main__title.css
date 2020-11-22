@@ -1,0 +1,26 @@
+.main__title {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  margin: 0 auto 65px;
+  font-family: "PT Sans Caption", sans-serif;
+  width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+  .main__title {
+    width: 100%;
+    margin: 0 auto 20px;
+    font-size: calc((100vw - 320px) / (1024 - 320) * (70 - 36) + 36px);
+    line-height: calc((100vw - 320px) / (1024 - 320) * (70 - 48) + 48px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main__title {
+    margin: 0 auto 20px;
+    text-align: left;
+  }
+}

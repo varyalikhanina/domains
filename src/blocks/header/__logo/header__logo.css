@@ -1,0 +1,15 @@
+@import url("_main/header__logo_main.css");
+@import url("_details/header__logo_details.css");
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.header__logo:hover {
+  opacity: 0.8;
+}

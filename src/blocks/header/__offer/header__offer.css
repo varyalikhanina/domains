@@ -1,0 +1,16 @@
+.header__offer {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.25em;
+}
+
+@media screen and (max-width: 910px) {
+  .header__offer {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

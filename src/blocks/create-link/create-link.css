@@ -1,0 +1,38 @@
+@import url("_details/create-link_details.css");
+@import url("_main/create-link_main.css");
+@import url("_about/create-link_about.css");
+
+.create-link {
+  background-color: #77b53c;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  width: 24%;
+  min-width: 264px;
+  padding: 17px 0;
+  display: block;
+  cursor: pointer;
+}
+
+.create-link:hover {
+  background-color: #7ec040;
+}
+
+@media screen and (max-width: 1024px) {
+  .create-link {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .create-link {
+    min-width: 100%;
+    width: 100%;
+  }
+}

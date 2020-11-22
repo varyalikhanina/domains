@@ -1,0 +1,29 @@
+@import url("./__title/main__title.css");
+@import url("./__form/main__form.css");
+@import url("./__form-input/main__form-input.css");
+@import url("./__form-button/main__form-button.css");
+@import url("./__info/main__info.css");
+@import url("./__info-text/main__info-text.css");
+@import url("./__info-link/main__info-link.css");
+@import url("./__validation/main__validation.css");
+@import url("./__validation-error/main__validation-error.css");
+
+.main {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: max-content;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    height: max-content;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main {
+    height: min-content;
+  }
+}

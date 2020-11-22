@@ -1,0 +1,16 @@
+.main__form {
+  width: 66.3%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+}
+
+@media screen and (max-width: 425px) {
+  .main__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

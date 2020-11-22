@@ -1,0 +1,29 @@
+.content {
+  width: 90vw;
+  height: 100vh;
+  max-width: 1092px;
+  min-width: 819px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 910px) {
+  .content {
+    min-width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content {
+    min-width: 310px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    min-width: 288px;
+  }
+}

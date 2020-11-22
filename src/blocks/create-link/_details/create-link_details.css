@@ -1,0 +1,15 @@
+.create-link_details {
+  margin: 50px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .create-link_details {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .create-link_details {
+    margin: 65px auto 0;
+  }
+}

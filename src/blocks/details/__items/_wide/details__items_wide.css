@@ -1,0 +1,5 @@
+@media screen and (max-width: 425px) {
+  .details__items_wide {
+    display: none !important;
+  }
+}
