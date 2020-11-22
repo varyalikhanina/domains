@@ -15,8 +15,8 @@
   .about__title {
     width: 100%;
     margin-bottom: 5px;
-    font-size: calc((100vw - 320px) / (910 - 320) * (60 - 14) + 14px);
-    line-height: calc((100vw - 320px) / (910 - 320) * (60 - 18) + 18px);
+    font-size: calc((100vw - 320px) / (910 - 320) * (36 - 14) + 14px);
+    line-height: calc((100vw - 320px) / (910 - 320) * (36 - 18) + 18px);
     text-align: left;
   }
 }

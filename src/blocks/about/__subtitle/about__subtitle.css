@@ -16,7 +16,7 @@
   .about__subtitle {
     text-align: left;
     width: 100%;
-    font-size: calc((100vw - 320px) / (910 - 320) * (60 - 24) + 24px);
-    line-height: calc((100vw - 320px) / (910 - 320) * (60 - 31) + 31px);
+    font-size: calc((100vw - 320px) / (910 - 320) * (44 - 24) + 24px);
+    line-height: calc((100vw - 320px) / (910 - 320) * (44 - 31) + 31px);
   }
 }

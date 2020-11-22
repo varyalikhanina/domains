@@ -4,12 +4,6 @@
 
 @media screen and (max-width: 768px) {
   .create-link_details {
-    margin: 20px auto;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .create-link_details {
-    margin: 65px auto 0;
+    margin: 10px auto;
   }
 }
