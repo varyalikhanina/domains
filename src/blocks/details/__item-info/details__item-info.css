@@ -95,7 +95,9 @@
   .details__item-info {
     height: max-content;
     min-height: max-content;
-    padding: 22px 5px;
+    background-color: #fff;
+    border: none;
+    padding: 0;
   }
   .details__item-info:before {
     content: "";
