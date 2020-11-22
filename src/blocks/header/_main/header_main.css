@@ -1,3 +1,5 @@
 .header_main {
   color: #fff;
+  display: flex;
+  justify-content: space-between;
 }

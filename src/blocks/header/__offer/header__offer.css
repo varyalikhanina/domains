@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 910px) {
   .header__offer {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    letter-spacing: 0;
   }
 }
