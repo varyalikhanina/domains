@@ -1,12 +1,39 @@
 import "./style.css";
 
+const offer = document.querySelector(".header__offer");
+const mainTitle = document.querySelector(".main__title");
+const detailsTitle = document.querySelector(".details__title");
+const aboutTitle = document.querySelector(".about__title");
+const infos = document.querySelectorAll(".details__item-info");
+const aboutSubtitle = document.querySelector(".about__subtitle");
+const offerDescription = document.querySelector(".about__offer-description");
+const footer = document.querySelector(".footer__copyright");
+
+const arrayToEnableTextSelection = [
+  offer,
+  mainTitle,
+  detailsTitle,
+  aboutSubtitle,
+  aboutTitle,
+  infos,
+  offerDescription,
+  footer,
+];
+
+window.addEventListener("load", () => {
+  if (window.innerWidth > 768) {
+    arrayToEnableTextSelection.forEach((el) => {
+      el.classList.add("swiper-no-swiping");
+    });
+  }
+});
+
 const checkDomainForm = document.querySelector(".main__form");
 const checkDomainButton = document.querySelector(".main__form-button");
 const domainInfo = document.querySelector(".main__info");
 const domainName = document.querySelector(".main__info-domain");
 const createAccButton = document.querySelector(".create-link");
 const validationInfo = document.querySelector(".main__validation");
-const info = document.querySelectorAll(".details__item-info");
 const businessCardButton = document.querySelector(
   ".details__item_business-card"
 );
@@ -29,7 +56,6 @@ const dnssecButton = document.querySelector(".details__item_dnssec");
 const dnssecInfo = document.querySelector(".details__item-info_dnssec");
 const redirectButton = document.querySelector(".details__item_redirect");
 const redirectlInfo = document.querySelector(".details__item-info_redirect");
-const allInfos = document.querySelectorAll(".details__item-info");
 
 function domainInfoShow() {
   domainInfo.style.display = "flex";
